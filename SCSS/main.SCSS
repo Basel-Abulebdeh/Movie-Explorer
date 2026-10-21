@@ -14,3 +14,15 @@ body {
     font-size: large;
   }
 } 
+
+.movie-modal {
+  .modal-content {
+    background-color: $card-clr;
+    color: $text-clr;
+    border: 1px solid $logo-clr;
+  }
+
+  .modal-header {
+    border-bottom: 1px solid $bg-clr;
+  }
+}

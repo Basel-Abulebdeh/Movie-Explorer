@@ -12,4 +12,13 @@ body {
   font-size: large;
 }
 
+.movie-modal .modal-content {
+  background-color: #131621;
+  color: #e8e8ec;
+  border: 1px solid #f5c518;
+}
+.movie-modal .modal-header {
+  border-bottom: 1px solid #14151a;
+}
+
 /*# sourceMappingURL=main.css.map */
