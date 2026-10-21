@@ -1,0 +1,16 @@
+@use 'variables' as *;
+
+body {
+  background-color: $bg-clr; 
+}
+
+.navbar {
+  background-color: $card-clr;
+  border-bottom: 3px solid $logo-clr;
+
+  .logo {
+    color: $logo-clr;
+    font-weight: 900;
+    font-size: large;
+  }
+} 

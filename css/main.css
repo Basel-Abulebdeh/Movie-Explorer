@@ -1,0 +1,15 @@
+body {
+  background-color: #14151a;
+}
+
+.navbar {
+  background-color: #131621;
+  border-bottom: 3px solid #f5c518;
+}
+.navbar .logo {
+  color: #f5c518;
+  font-weight: 900;
+  font-size: large;
+}
+
+/*# sourceMappingURL=main.css.map */
