@@ -1,3 +1,33 @@
+.movie-card {
+  background-color: #131621;
+  color: #e8e8ec;
+  border: 1px solid #9a9cab;
+  border-radius: 8px;
+}
+
+.movie-card {
+  transition: transform 0.2s;
+}
+.movie-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(245, 197, 24, 0.4);
+}
+.movie-card {
+  height: 100%;
+  cursor: pointer;
+  overflow: hidden;
+}
+.movie-card .card-img-top {
+  height: 380px;
+  object-fit: cover;
+}
+.movie-card .card-body {
+  padding: 1rem;
+}
+.movie-card .card-text {
+  color: #9a9cab;
+}
+
 body {
   background-color: #14151a;
 }
@@ -15,10 +45,13 @@ body {
 .movie-modal .modal-content {
   background-color: #131621;
   color: #e8e8ec;
-  border: 1px solid #f5c518;
+  border: 2px solid #f5c518;
 }
 .movie-modal .modal-header {
-  border-bottom: 1px solid #14151a;
+  border-bottom: 2px solid #14151a;
+}
+.movie-modal .modal-label {
+  font-weight: 900;
 }
 
 /*# sourceMappingURL=main.css.map */
