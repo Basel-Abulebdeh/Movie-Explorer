@@ -1,4 +1,6 @@
 @use 'variables' as *;
+@use 'cards';
+@use 'release';
 
 body {
   background-color: $bg-clr; 

@@ -1,3 +1,70 @@
+.movie-card {
+  background-color: #131621;
+  color: #e8e8ec;
+  border: 1px solid #9a9cab;
+  border-radius: 8px;
+}
+
+.movie-card {
+  transition: transform 0.2s;
+}
+.movie-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(245, 197, 24, 0.4);
+}
+.movie-card {
+  height: 100%;
+  cursor: pointer;
+  overflow: hidden;
+}
+.movie-card .card-img-top {
+  height: 380px;
+  object-fit: cover;
+}
+.movie-card .card-body {
+  padding: 1rem;
+}
+.movie-card .card-text {
+  color: #9a9cab;
+}
+
+.new-release .release-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+.new-release .view-all {
+  color: #e8e8ec;
+  text-decoration: none;
+}
+.new-release .view-all:hover {
+  color: #f5c518;
+}
+.new-release .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.new-release .release-info {
+  gap: 1rem;
+}
+.new-release .release-time {
+  color: #9a9cab;
+}
+.new-release .release-rating span {
+  color: #f5c518;
+  border: 1px solid #f5c518;
+  border-radius: 4px;
+  padding: 0 0.4rem;
+  font-size: 0.85rem;
+}
+.new-release .release-category a {
+  color: #9a9cab;
+  text-decoration: none;
+}
+.new-release .release-category a:hover {
+  color: #f5c518;
+}
+
 body {
   background-color: #14151a;
 }

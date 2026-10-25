@@ -1,0 +1,48 @@
+@use 'variables' as *;
+
+.new-release {
+  .release-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .view-all {
+    color: $text-clr;
+    text-decoration: none;
+
+    &:hover {
+      color: $logo-clr;
+    }
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .release-info {
+    gap: 1rem;
+  }
+
+  .release-time {
+    color: $muted-clr;
+  }
+
+  .release-rating span {
+    color: $logo-clr;
+    border: 1px solid $logo-clr;
+    border-radius: 4px;
+    padding: 0 0.4rem;
+    font-size: 0.85rem;
+  }
+
+  .release-category a {
+    color: $muted-clr;
+    text-decoration: none;
+
+    &:hover {
+      color: $logo-clr;
+    }
+  }
+}
