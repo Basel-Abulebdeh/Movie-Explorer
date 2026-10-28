@@ -1,48 +1,19 @@
 @use 'variables' as *;
-
-.new-release {
-  .release-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin: 0;
-  }
-
-  .view-all {
+.pagination {
+  .page-link {
+    background-color: $card-clr;
     color: $text-clr;
-    text-decoration: none;
+    border: 1px solid $muted-clr;
 
     &:hover {
-      color: $logo-clr;
+      background-color: $logo-clr;
+      color: $bg-clr;
     }
   }
 
-  .card-title {
-    font-size: 1.2rem;
-    font-weight: bold;
-  }
-
-  .release-info {
-    gap: 1rem;
-  }
-
-  .release-time {
-    color: $muted-clr;
-  }
-
-  .release-rating span {
-    color: $logo-clr;
-    border: 1px solid $logo-clr;
-    border-radius: 4px;
-    padding: 0 0.4rem;
-    font-size: 0.85rem;
-  }
-
-  .release-category a {
-    color: $muted-clr;
-    text-decoration: none;
-
-    &:hover {
-      color: $logo-clr;
-    }
+  .page-item.active .page-link {
+    background-color: $logo-clr;
+    border-color: $logo-clr;
+    color: $bg-clr;
   }
 }

@@ -28,41 +28,23 @@
   color: #9a9cab;
 }
 
-.new-release .release-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin: 0;
-}
-.new-release .view-all {
+.pagination .page-link {
+  background-color: #131621;
   color: #e8e8ec;
+  border: 1px solid #9a9cab;
+}
+.pagination .page-link:hover {
+  background-color: #f5c518;
+  color: #14151a;
+}
+.pagination .page-item.active .page-link {
+  background-color: #f5c518;
+  border-color: #f5c518;
+  color: #14151a;
+}
+
+a:hover {
   text-decoration: none;
-}
-.new-release .view-all:hover {
-  color: #f5c518;
-}
-.new-release .card-title {
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-.new-release .release-info {
-  gap: 1rem;
-}
-.new-release .release-time {
-  color: #9a9cab;
-}
-.new-release .release-rating span {
-  color: #f5c518;
-  border: 1px solid #f5c518;
-  border-radius: 4px;
-  padding: 0 0.4rem;
-  font-size: 0.85rem;
-}
-.new-release .release-category a {
-  color: #9a9cab;
-  text-decoration: none;
-}
-.new-release .release-category a:hover {
-  color: #f5c518;
 }
 
 body {
@@ -89,6 +71,13 @@ body {
 }
 .movie-modal .modal-label {
   font-weight: 900;
+}
+.movie-modal .close-btn {
+  background: transparent;
+  color: #e8e8ec;
+}
+.movie-modal .close-btn:hover {
+  color: #f5c518;
 }
 
 /*# sourceMappingURL=main.css.map */
